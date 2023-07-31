@@ -9,9 +9,16 @@ body {
     background-color: black;
     color: white;
   }
-  
+  .navbar{
+    padding-right: 20%;
+    padding-left: 20%;
+  }
   .container {
     margin-top: 50px;
+  }
+
+  .container-div-right{
+    padding-left: 450px;
   }
   
   .display {
@@ -22,7 +29,12 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgb(255 255 255);
+  }
+
+  .carousel-img{
+    padding-left: 40%;
+    height: 450px;
   }
   
   .btn-primary {
@@ -52,10 +64,10 @@ body {
   }
   /* Additional CSS for the movie cards */
   .card {
-    background-color: #f0f0f0;
+    background-color: black;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgb(255 255 255);
     display: flex;
     flex-direction: column; /* Align the elements inside the card vertically */
     align-items: center; /* Center the elements horizontally within the card */
@@ -84,11 +96,23 @@ body {
   .movie-card-div{
     display: inline-block;
   }
-  
 
-  .movie-grid{
+  .modal-content{
     color: black;
   }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: white;
+}
   
- 
+.text-color-imdb{
+    color:#f3ce13
+}
   

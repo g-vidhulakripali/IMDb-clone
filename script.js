@@ -3,6 +3,7 @@ const apiKey = "b419b1c8";
 const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 const favouriteMovies = document.getElementById("favouriteMovies");
+const message = document.getElementById("message");
 
 // Function to fetch movie data from API
 async function fetchMovieData(searchTerm) {
@@ -68,6 +69,7 @@ function addToFavourites(movieId) {
   if (!favouriteMovieIds.includes(movieId)) {
     favouriteMovieIds.push(movieId);
     localStorage.setItem("favouriteMovies", JSON.stringify(favouriteMovieIds));
+
     // Scroll back to the "My Favourite Movies" section
     const favouriteSection = document.getElementById("favouriteSection");
     window.scrollTo({
