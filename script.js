@@ -3,7 +3,6 @@ const apiKey = "b419b1c8";
 const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 const favouriteMovies = document.getElementById("favouriteMovies");
-const message = document.getElementById("message");
 
 // Function to fetch movie data from API
 async function fetchMovieData(searchTerm) {
